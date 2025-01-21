@@ -12,3 +12,21 @@
 table, th, td {
 	border:1px solid black;
 }
+
+
+@media print {
+    /* body {
+      display: hidden;
+    } */
+
+    svg {
+        visibility: visible;
+    }
+
+    #print-container {
+      visibility: visible;
+      /* position: absolute;
+      left: 0;
+      top: 0; */
+    }
+  }
